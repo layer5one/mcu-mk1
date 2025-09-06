@@ -1,0 +1,12 @@
+mcp_server/
+├── main.py
+├── tools
+│   ├── __init__.py
+│   └── get_status.py
+├── schemas
+│   ├── get_status_input.json
+│   └── get_status_output.json
+├── requirements.txt
+├── Dockerfile
+├── docker-compose.yml
+└── README.md

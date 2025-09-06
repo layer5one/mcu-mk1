@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "GetStatusOutput",
+  "description": "Output schema for get_status tool",
+  "type": "object",
+  "properties": {
+    "cpu_percent": {
+      "type": "number",
+      "description": "CPU usage percentage"
+    },
+    "memory_percent": {
+      "type": "number",
+      "description": "Memory usage percentage"
+    },
+    "cpu_count": {
+      "type": "integer",
+      "description": "Number of CPU cores (included if verbose=true)"
+    }
+  },
+  "required": ["cpu_percent", "memory_percent"]
+}
