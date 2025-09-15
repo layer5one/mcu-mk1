@@ -1,0 +1,10 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "GetNetworkOutput",
+  "type": "object",
+  "properties": {
+    "hostname": { "type": "string" },
+    "ip": { "type": "string" }
+  },
+  "required": ["hostname", "ip"]
+}
