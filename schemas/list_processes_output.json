@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ListProcessesOutput",
+  "type": "object",
+  "properties": {
+    "processes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "pid": { "type": "integer" },
+          "name": { "type": "string" }
+        },
+        "required": ["pid", "name"]
+      }
+    }
+  },
+  "required": ["processes"]
+}
