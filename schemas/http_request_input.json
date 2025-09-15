@@ -1,0 +1,9 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "HttpRequestInput",
+  "type": "object",
+  "properties": {
+    "url": { "type": "string" }
+  },
+  "required": ["url"]
+}
