@@ -1,0 +1,9 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CalculatorOutput",
+  "type": "object",
+  "properties": {
+    "result": { "type": ["number", "null"] }
+  },
+  "required": ["result"]
+}
