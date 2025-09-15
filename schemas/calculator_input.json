@@ -1,0 +1,11 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CalculatorInput",
+  "type": "object",
+  "properties": {
+    "operation": { "type": "string", "enum": ["add", "sub", "mul", "div"] },
+    "a": { "type": "number" },
+    "b": { "type": "number" }
+  },
+  "required": ["operation", "a", "b"]
+}
