@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "MemoryInput",
+  "type": "object",
+  "properties": {
+    "operation": {
+      "type": "string",
+      "enum": ["store", "retrieve"]
+    },
+    "key": {
+      "type": "string",
+      "description": "The key to store or retrieve information under."
+    },
+    "value": {
+      "type": "string",
+      "description": "The information to store (required for 'store' operation)."
+    }
+  },
+  "required": ["operation", "key"]
+}
